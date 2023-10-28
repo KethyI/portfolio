@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 
-.links-buttons ul {
+.links-buttons > ul {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -42,20 +42,12 @@ ul {
 padding: 0;
 }
 
-li a {
+li > a {
     color: var(--main-color);
     text-decoration: none;
     margin: 0;
 }
 
-div > ul > li > a   {
-    color: var(--main-color) !important
-}
-
-nav > a {
-    color: var(--main-color) !important
- 
-}
 
 div > a {
     display: block;
