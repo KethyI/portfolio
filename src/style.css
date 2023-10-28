@@ -7,13 +7,13 @@ body {
     text-align: center;
 }
 
-ul {
+.links-buttons ul {
     display: flex;
     list-style: none;
     justify-content: center;
 }
 
-li {
+.links-buttons > ul > li {
     border: 1px solid var(--main-color);
     border-radius: 5%;
     padding: 20px 15px;
@@ -46,6 +46,15 @@ li a {
     color: var(--main-color);
     text-decoration: none;
     margin: 0;
+}
+
+div > ul > li > a   {
+    color: var(--main-color) !important
+}
+
+nav > a {
+    color: var(--main-color) !important
+ 
 }
 
 div > a {
