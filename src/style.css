@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+.container {
+    text-align: left;
+}
+
 .links-buttons > ul {
     display: flex;
     list-style: none;
@@ -17,7 +21,7 @@ body {
     border: 1px solid var(--main-color);
     border-radius: 5%;
     padding: 20px 15px;
-    margin: 50px 20px;
+    margin: 0 20px;
     color: var(--main-color);
 }
 
@@ -39,7 +43,7 @@ h4 {
 }
 
 ul {
-padding: 0;
+    padding: 0;
 }
 
 li > a {
@@ -49,27 +53,24 @@ li > a {
 }
 
 
-div > a {
-    display: block;
-    margin-top: 55px;
-    }
-
 .lorem  {
     color: black;
     border: none;
     background: #f5f2fe;
     font-size: 18px;
     padding: 20px;
-    margin: 20px 10px 30px 10px;
+    margin: 20px 10px 0 10px;
     border-radius: 4px;
     line-height: 1.5;
     max-width: 350px;
+    text-align: left;
     }
 
 .contact-me-btn {
     background: var(--main-color);
     color: white;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 15px;
 }
 
 .contact-me-text {
@@ -89,4 +90,9 @@ div > a:visited {
 
 .my-email:hower {
     text-decoration: underline;
+}
+
+.contact-me-text:hover {
+    color: white;
+    text-decoration: none;
 }
