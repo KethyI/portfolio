@@ -94,3 +94,9 @@ div > a:visited {
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+}
