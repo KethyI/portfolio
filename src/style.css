@@ -99,4 +99,8 @@ div > a:visited {
     h1 {
         font-size: 60px;
     }
+
+    .container {
+        text-align: center;
+    }
 }
